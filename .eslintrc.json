@@ -19,6 +19,7 @@
         "react",
         "@typescript-eslint"
     ],
+    "ignorePatterns": ["src/react-app-env.d.ts"],
     "rules": {
         "require-jsdoc": 0,
         "react/react-in-jsx-scope": 0,
