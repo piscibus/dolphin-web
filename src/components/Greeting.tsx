@@ -5,7 +5,7 @@ type greetProps = {
 }
 
 const Greeting = (props: greetProps) => {
-    return <h5>{props.name}</h5>
-}
+  return <h5>{props.name}</h5>;
+};
 
-export default Greeting
+export default Greeting;

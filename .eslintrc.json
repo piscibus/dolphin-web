@@ -20,5 +20,15 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "require-jsdoc": 0,
+        "react/react-in-jsx-scope": 0,
+        "indent": ["error", 2],
+        "comma-dangle": ["error", {
+            "exports": "only-multiline",
+            "arrays": "only-multiline",
+            "objects": "only-multiline",
+            "imports": "only-multiline",
+            "functions": "never"
+        }]
     }
 }
