@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styles from './UserMenu.module.css';
 
 type Props = {};
 
@@ -19,13 +20,15 @@ const ProfileMenu = (props: Props) => {
           aria-haspopup="true"
           aria-expanded="false"
         >
-          <Image
-            width={30}
-            height={30}
-            className="rounded-circle header-profile-user"
-            src="/assets/images/users/avatar-1.jpg"
-            alt="Header Avatar"
-          />
+          <span className={`${styles.picContainer} rounded-circle header-profile-user`}>
+            <Image
+              className='rounded-circle'
+              width={30}
+              height={30}
+              src="/assets/images/users/avatar-1.jpg"
+              alt="Header Avatar"
+            />
+          </span>
           <span className="d-none d-xl-inline-block ms-1 fw-medium">
             Shawn L.
           </span>
