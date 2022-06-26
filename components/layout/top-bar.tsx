@@ -1,4 +1,4 @@
-import Logo from "./logo";
+import Logo from "./Logo";
 import BarsButton from "./bars-button";
 import AppSearch from "./AppSearch";
 import UserMenu from "./user-menu";
