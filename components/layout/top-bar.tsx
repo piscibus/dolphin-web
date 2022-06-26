@@ -1,16 +1,10 @@
-import Logo from "./logo";
-import BarsButton from "./bars-button";
-import AppSearch from "./app-search";
 import UserMenu from "./user-menu";
+import Brand from "./brand";
 
 const TopBar = () => (
   <header id="page-topbar">
     <div className="navbar-header">
-      <div className="d-flex">
-        <Logo/>
-        <BarsButton/>
-        <AppSearch/>
-      </div>
+      <Brand/>
       <UserMenu/>
     </div>
   </header>
