@@ -7,7 +7,7 @@ const NotificationsFooter = (props: Props) => {
     <div className="p-2 border-top d-grid">
       <a
         className="btn btn-sm btn-link font-size-14 text-center"
-        href="javascript:void(0)"
+        href="#"
       >
         <i className="mdi mdi-arrow-right-circle me-1"/>{" "}
         <span>View More..</span>

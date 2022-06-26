@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import Notifications from "./notifications";
 
-// @TODO: Fix JS scripts
-
 const UserMenu = () => (
   <div className="d-flex">
     <div className="dropdown d-inline-block d-lg-none ms-2">
