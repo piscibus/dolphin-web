@@ -1,6 +1,6 @@
 import Image from 'next/image';
+import {Bell} from 'react-feather';
 
-// @TODO: Fix image dimensions
 // @TODO: Fix JS scripts
 
 const UserMenu = () => (
@@ -37,169 +37,6 @@ const UserMenu = () => (
         </form>
       </div>
     </div>
-    <div className="dropdown d-none d-sm-inline-block">
-      <button
-        type="button"
-        className="btn header-item"
-        data-bs-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        <Image
-          id="header-lang-img"
-          src="/assets/images/flags/us.jpg"
-          alt="Header Language"
-          height={16}
-          width={16}
-        />
-      </button>
-      <div className="dropdown-menu dropdown-menu-end">
-        {/* item*/}
-        <a
-          href="#"
-          className="dropdown-item notify-item language"
-          data-lang="en"
-        >
-          <Image
-            src="/assets/images/flags/us.jpg"
-            alt="user-image"
-            className="me-1"
-            height={12}
-            width={12}
-          />{" "}
-          <span className="align-middle">English</span>
-        </a>
-        {/* item*/}
-        <a
-          href="#"
-          className="dropdown-item notify-item language"
-          data-lang="sp"
-        >
-          <Image
-            src="/assets/images/flags/spain.jpg"
-            alt="user-image"
-            className="me-1"
-            height={12}
-            width={12}
-          />{" "}
-          <span className="align-middle">Spanish</span>
-        </a>
-        {/* item*/}
-        <a
-          href="#"
-          className="dropdown-item notify-item language"
-          data-lang="gr"
-        >
-          <Image
-            src="/assets/images/flags/germany.jpg"
-            alt="user-image"
-            className="me-1"
-            height={12}
-            width={12}
-          />{" "}
-          <span className="align-middle">German</span>
-        </a>
-        {/* item*/}
-        <a
-          href="#"
-          className="dropdown-item notify-item language"
-          data-lang="it"
-        >
-          <Image
-            src="/assets/images/flags/italy.jpg"
-            alt="user-image"
-            className="me-1"
-            height={12}
-            width={12}
-          />{" "}
-          <span className="align-middle">Italian</span>
-        </a>
-        {/* item*/}
-        <a
-          href="#"
-          className="dropdown-item notify-item language"
-          data-lang="ru"
-        >
-          <Image
-            src="/assets/images/flags/russia.jpg"
-            alt="user-image"
-            className="me-1"
-            height={12}
-            width={12}
-          />{" "}
-          <span className="align-middle">Russian</span>
-        </a>
-      </div>
-    </div>
-    <div className="dropdown d-none d-sm-inline-block">
-      <button type="button" className="btn header-item" id="mode-setting-btn">
-        <i data-feather="moon" className="icon-lg layout-mode-dark"/>
-        <i data-feather="sun" className="icon-lg layout-mode-light"/>
-      </button>
-    </div>
-    <div className="dropdown d-none d-lg-inline-block ms-1">
-      <button
-        type="button"
-        className="btn header-item"
-        data-bs-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        <i data-feather="grid" className="icon-lg"/>
-      </button>
-      <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-        <div className="p-2">
-          <div className="row g-0">
-            <div className="col">
-              <a className="dropdown-icon-item" href="#">
-                <Image layout={'fill'} src="/assets/images/brands/github.png" alt="Github"/>
-                <span>GitHub</span>
-              </a>
-            </div>
-            <div className="col">
-              <a className="dropdown-icon-item" href="#">
-                <Image
-                  layout={'fill'}
-                  src="/assets/images/brands/bitbucket.png"
-                  alt="bitbucket"
-                />
-                <span>Bitbucket</span>
-              </a>
-            </div>
-            <div className="col">
-              <a className="dropdown-icon-item" href="#">
-                <Image layout={'fill'} src="/assets/images/brands/dribbble.png" alt="dribbble"/>
-                <span>Dribbble</span>
-              </a>
-            </div>
-          </div>
-          <div className="row g-0">
-            <div className="col">
-              <a className="dropdown-icon-item" href="#">
-                <Image layout={'fill'} src="/assets/images/brands/dropbox.png" alt="dropbox"/>
-                <span>Dropbox</span>
-              </a>
-            </div>
-            <div className="col">
-              <a className="dropdown-icon-item" href="#">
-                <Image
-                  layout={'fill'}
-                  src="/assets/images/brands/mail_chimp.png"
-                  alt="mail_chimp"
-                />
-                <span>Mail Chimp</span>
-              </a>
-            </div>
-            <div className="col">
-              <a className="dropdown-icon-item" href="#">
-                <Image layout={'fill'} src="/assets/images/brands/slack.png" alt="slack"/>
-                <span>Slack</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div className="dropdown d-inline-block">
       <button
         type="button"
@@ -209,7 +46,7 @@ const UserMenu = () => (
         aria-haspopup="true"
         aria-expanded="false"
       >
-        <i data-feather="bell" className="icon-lg"/>
+        <Bell size={20}/>
         <span className="badge bg-danger rounded-pill">5</span>
       </button>
       <div
@@ -226,7 +63,6 @@ const UserMenu = () => (
                 href="#!"
                 className="small text-reset text-decoration-underline"
               >
-                {" "}
                 Unread (3)
               </a>
             </div>
