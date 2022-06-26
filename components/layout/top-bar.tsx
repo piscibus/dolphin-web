@@ -1,6 +1,6 @@
 import Logo from "./logo";
 import BarsButton from "./bars-button";
-import AppSearch from "./AppSearch";
+import AppSearch from "./app-search";
 import UserMenu from "./user-menu";
 
 const TopBar = () => (
