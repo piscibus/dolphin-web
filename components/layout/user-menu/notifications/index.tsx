@@ -1,16 +1,15 @@
 import * as React from 'react';
-import {Dropdown} from "react-bootstrap";
-import ButtonBell from "./ButtonBell";
-import NotificationList from "./NotificationList";
+import ButtonBell from "./button-bell";
+import NotificationMenu from "./notification-menu";
 
 type Props = {};
 
 const Notifications = (props: Props) => {
   return (
-    <Dropdown className="d-inline-block">
+    <div className="dropdown d-inline-block">
       <ButtonBell/>
-      <NotificationList/>
-    </Dropdown>
+      <NotificationMenu/>
+    </div>
   );
 };
 
