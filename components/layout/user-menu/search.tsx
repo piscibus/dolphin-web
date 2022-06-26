@@ -1,3 +1,5 @@
+import {Search as SearchIcon} from 'react-feather';
+
 type Props = {};
 const Search = (props: Props) => {
   return (
@@ -10,7 +12,7 @@ const Search = (props: Props) => {
         aria-haspopup="true"
         aria-expanded="false"
       >
-        <i data-feather="search" className="icon-lg"/>
+        <SearchIcon/>
       </button>
       <div
         className="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
