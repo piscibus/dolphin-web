@@ -7,6 +7,7 @@ const Home: NextPage = () => (
   <Layout>
     <TopBar/>
     <Topnav/>
+    {/*  @TODO:: Add footer component */}
   </Layout>
 );
 
