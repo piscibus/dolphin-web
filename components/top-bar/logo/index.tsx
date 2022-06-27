@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logoSm from '../../public/assets/images/logo-sm.svg';
-import config from '../../config';
+import logoSm from '../../../public/assets/images/logo-sm.svg';
+import config from '../../../config';
 import styles from './Logo.module.css';
 
 type Theme = 'light' | 'dark';
