@@ -1,18 +1,15 @@
 import type {NextPage} from 'next';
-import HeadTag from "../components/layout/head-tag";
-import Scripts from "../components/layout/scripts";
+import {Layout} from "../components/layout/Layout";
 import TopBar from "../components/top-bar";
 import Topnav from "../components/topnav";
 
 const Home: NextPage = () => (
-  <>
-    <HeadTag/>
+  <Layout>
     <div id="layout-wrapper">
       <TopBar/>
       <Topnav/>
     </div>
-    <Scripts/>
-  </>
+  </Layout>
 );
 
 export default Home;
