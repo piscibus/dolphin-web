@@ -2,7 +2,7 @@ import {Search as SearchIcon} from 'react-feather';
 
 type Props = {};
 
-const Search = (props: Props) => {
+const SearchSm = (props: Props) => {
   return (
     <div className="dropdown d-inline-block d-lg-none ms-2">
       <button
@@ -25,8 +25,8 @@ const Search = (props: Props) => {
               <input
                 type="text"
                 className="form-control"
-                placeholder="Search ..."
-                aria-label="Search Result"
+                placeholder="SearchSm ..."
+                aria-label="SearchSm Result"
               />
               <button className="btn btn-primary" type="submit">
                 <i className="mdi mdi-magnify"/>
@@ -39,4 +39,4 @@ const Search = (props: Props) => {
   );
 };
 
-export default Search;
+export default SearchSm;

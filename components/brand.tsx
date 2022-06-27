@@ -1,5 +1,5 @@
 import Logo from "./logo";
-import AppSearch from "./app-search";
+import SearchLg from "./search/search-lg";
 import BarsButton from "./bars-button";
 
 type Props = {};
@@ -9,7 +9,7 @@ const Brand = (props: Props) => {
     <div className="d-flex">
       <Logo/>
       <BarsButton/>
-      <AppSearch/>
+      <SearchLg/>
     </div>
   );
 };

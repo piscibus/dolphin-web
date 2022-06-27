@@ -1,10 +1,10 @@
 import Notifications from "./notifications";
-import Search from "./search";
+import SearchSm from "../search/search-sm";
 import ProfileMenu from "./profile-menu";
 
 const UserMenu = () => (
   <div className="d-flex">
-    <Search/>
+    <SearchSm/>
     <Notifications/>
     <ProfileMenu/>
   </div>
