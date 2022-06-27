@@ -1,4 +1,3 @@
-import * as React from 'react';
 import ButtonBell from "./button-bell";
 import NotificationMenu from "./notification-menu";
 

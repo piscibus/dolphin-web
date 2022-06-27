@@ -1,6 +1,5 @@
 import IconNotificationItem from "./icon-notification-item";
 import AvatarNotificationItem from "./avatar-notification-item";
-import * as React from "react";
 
 type Props = {};
 

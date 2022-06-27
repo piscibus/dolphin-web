@@ -1,6 +1,7 @@
 import {Search as SearchIcon} from 'react-feather';
 
 type Props = {};
+
 const Search = (props: Props) => {
   return (
     <div className="dropdown d-inline-block d-lg-none ms-2">

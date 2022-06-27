@@ -1,4 +1,3 @@
-import * as React from 'react';
 import NotificationsHeader from "./notifications-header";
 import NotificationsFooter from "./notifications-footer";
 import NotificationList from "./notification-list";

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import * as React from "react";
 
 type Props = {};
+
 const AvatarNotificationItem = (props: Props) => {
   return (
     <a href="#" className="text-reset notification-item">

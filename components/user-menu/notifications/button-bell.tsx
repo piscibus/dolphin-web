@@ -1,5 +1,4 @@
 import {Bell} from "react-feather";
-import * as React from "react";
 
 const ButtonBell = () => (
   <button

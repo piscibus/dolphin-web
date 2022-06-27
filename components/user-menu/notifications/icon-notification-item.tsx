@@ -1,6 +1,5 @@
-import * as React from "react";
-
 type Props = {};
+
 const IconNotificationItem = (props: Props) => {
   return (
     <a href="#" className="text-reset notification-item">
