@@ -1,5 +1,5 @@
 import Notifications from "./notifications";
-import SearchSm from "../search/search-sm";
+import SearchSm from "../../search/search-sm";
 import ProfileMenu from "./profile-menu";
 
 const UserMenu = () => (

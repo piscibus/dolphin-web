@@ -1,6 +1,6 @@
-import Logo from "./logo";
-import SearchLg from "./search/search-lg";
-import BarsButton from "./bars-button";
+import Logo from "../logo";
+import SearchLg from "../search/search-lg";
+import BarsButton from "../bars-button";
 
 type Props = {};
 
