@@ -5,10 +5,8 @@ import Topnav from "../components/topnav";
 
 const Home: NextPage = () => (
   <Layout>
-    <div id="layout-wrapper">
-      <TopBar/>
-      <Topnav/>
-    </div>
+    <TopBar/>
+    <Topnav/>
   </Layout>
 );
 
